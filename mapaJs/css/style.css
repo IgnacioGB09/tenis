@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	color:white;
+    box-sizing: border-box;
+}
+
+h2{
+	font-family: 'Sansita Swashed', cursive;
+	letter-spacing:4px;
+}
+
+h3{
+	color:darkblue;
+	margin-top:30px;
+	text-align:center;
+}
+
+/* Menu */
+.logo{	
+	grid-area:logo;
+	background: #06035A; 
+	padding:0px 25px 0px 25px;
+	display:flex;
+	justify-content: space-between; 
+	align-items:center;
+	height: 75px;
+	width:100%;
+	
+}
+
+header li{
+	 list-style:none; 
+	display: inline-block;
+}
+
+header nav a{
+    color:white;
+	font-weight:bold;
+	margin-left:15px;
+	padding:10px;
+	text-transform: uppercase;
+	text-decoration:none;
+	border-radius:5px;
+}
+
+header nav a:hover{
+	color:white;
+	background:#4ea0da;
+}
+/* menu */
+
+
+#map {
+	position: absolute;
+	top: 75px;
+	bottom: 0;
+	width: 100%; 
+	height: 580px;
+	
+}
+
+.overlay {
+	position: absolute;
+	top: 100px;
+	left: 10px;
+
+}
+ 
+option{
+	padding: 10px;
+}
+
+.overlay button, select{
+	background-color: #3386c0;
+	display: block;
+	margin: 0px 10px 0px 10px; 
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size:16px;
+	color:white;
+	font-weight:bold;
+}
+ 
+.overlay button:hover {
+	background-color: #4ea0da;
+}
+
+#coordenadas {
+    z-index: 1;
+    display: block;
+    position: relative;
+    margin: 20px auto;
+    width: 40%;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+}

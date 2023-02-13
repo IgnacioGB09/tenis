@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>OnTheFly</title>
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css" rel="stylesheet" />
+		<script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+				<div class="logo">
+				  <h2>OnTheFly</h2>
+					<nav>
+						<ul>
+							<li><a href="">home</a></li>
+							<li><a href="">airlines</a></li>
+							<li><a href="">offers</a></li>
+							<li><a href="">contact</a></li>
+						</ul>
+					</nav>
+				</div>
+		</header>
+		
+		<div id="map"></div>
+			<div id="cooredenadas"></div>
+		<div class="overlay">
+			<button id="replay">Replay</button>
+			<h3>Destinos de viaje</h3>
+				<select name="destino" id="destinos">
+					<option value="usa">Estados Unidos</option>
+					<option value="francia" >Francia</option>
+					<option value="egipto">Egipto</option>
+					<option value="japon">Japón</option>
+					<option value="cuj">Costa Rica - USA - Japon</option>
+				</select>
+			</div>
+			<script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+			<script src="js/geo.js"></script>
+			</body>
+		</html>	
+		<!-- japon 36.59521886242525, 137.75389586910114	 -->
+		<!-- estdos unidos 39.743671747579924, -102.37964978557667 -->
+		<!--francia 46.67682493776834, 2.72719542152751  -->
+		<!--egipto 27.206885688242604, 30.820885656650162  -->
